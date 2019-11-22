@@ -5,6 +5,7 @@ import Header from '../src/components/Header/Header';
 import Main from './components/Main/Main'
 
 import { Helmet } from 'react-helmet';
+import Switch from './components/Switch/Switch';
 
 function App() {
   return (
