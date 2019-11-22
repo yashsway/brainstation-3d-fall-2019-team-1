@@ -11,17 +11,20 @@ export class Main extends Component {
         return (
             <>
             <div  className="header-bg"></div>
+
+            <section className="contentsection zero">
+                <span className="chart-title"> Who Are We?</span>
+                <span className="blurb">Digital Futures is the future of retail. Learn about the benefits of digital adoption in a constantly evolving and changing retail landscape. Visualise your company’s digital future.</span>
+            </section>
+
             <section className="contentsection one">
-                <span className="chart-title"> The Important Infomation</span>
+                <span className="chart-title"> Types of ICT</span>
                 {/* <div className="button-container">
                 <button className="chart-button">Benefits</button>
                 <button className="chart-button">Barriers</button>
                 <button className="chart-button">Chart 3</button>
                 </div> */}
                 <Switch />
-                <div className="chart-container">
-
-                </div>
             </section>
 
             <section className="contentsection two">
@@ -30,8 +33,8 @@ export class Main extends Component {
                 </div>
 
                 <div className="sectiontwo-container">
-                 <h1>test</h1>  
-                 <p className="paragraph secondsection" >fnjdlas nbfjkldsabnjlfbdsad fasbdsna jklbnfakl wbfh kdl sa bhkfdsbak fnjdlas nbfjkldsabnjlfbdsad fasbdsna jklbnfakl wbfhkdlsab hkfdsbak fnjdlas nbfjkldsabnjlfbdsad fasbdsna jklbnfakl wbfhkdlsabhkfd sbak</p> 
+                 <h1 className="ict-title">What is ICT?</h1>  
+                 <p className="paragraph secondsection" >Any and all devices, networking components, applications and systems that combined allow people and organizations to interact with the digital world. In E-Commerce, ICT can help make better use of production and resources, improve profitability, cost reduction over manual tasks and reduce lead times.</p> 
                 </div>
                 
                 

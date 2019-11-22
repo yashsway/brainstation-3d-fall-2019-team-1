@@ -33,9 +33,9 @@ class Switch extends React.Component {
             <section className="switch-section">
                 <div className="switch-section__container">
                     <div className="switch-section__button-container">
-                        <button className="switch-section__button" onClick={() => this.toggleOne()}>Chart 1</button>
-                        <button className="switch-section__button" onClick={() => this.toggleTwo()}>Chart 2</button>
-                        <button className="switch-section__button" onClick={() => this.toggleThree()}>Chart 3</button>
+                        <button className="switch-section__button" onClick={() => this.toggleOne()}>CRM</button>
+                        <button className="switch-section__button" onClick={() => this.toggleTwo()}>Data Analysis</button>
+                        <button className="switch-section__button" onClick={() => this.toggleThree()}>Smartphone/Tablet</button>
                     </div>
                     {/* <iframe
                         src="https://public.tableau.com/views/BrainStationKickstarterNumbers/1?:showVizHome=n&amp;:embed=true&amp;:display_count=yes"
@@ -51,7 +51,7 @@ class Switch extends React.Component {
                                 <iframe
                                     src="https://public.tableau.com/views/Book2_15744511876460/ICT_CRM?:showVizHome=n&amp;:embed=true&amp;:display_count=yes"
                                     //src="https://public.tableau.com/views/BrainStationKickstarterNumbers/ofProjectsDetail?:showVizHome=n&amp;:embed=true&amp;:display_count=yes"
-                                    width="645" height="300">
+                                    width="1290" height="600">
                                 </iframe>
                                 <p>This is a caption for the chart</p>
                             </div> : null
@@ -59,14 +59,14 @@ class Switch extends React.Component {
                         (this.state.displayTwo === true) ? <iframe
                             src="https://public.tableau.com/views/Book2_15744511876460/ICT_data_Analytics?:showVizHome=n&amp;:embed=true&amp;:display_count=yes"
                             //src="https://public.tableau.com/views/BrainStationKickstarterNumbers/1?:showVizHome=n&amp;:embed=true&amp;:display_count=yes"
-                            width="645" height="300">
+                            width="1290" height="600">
                         </iframe> : null
                     } {
                         (this.state.displayThree === true) ? <iframe
                             src="https://public.tableau.com/shared/3YZZQNQTR?:showVizHome=n&amp;:embed=true&amp;:display_count=yes"
                             //src="https://public.tableau.com/views/Book2_15744511876460/ICT_data_Analytics?:showVizHome=n&amp;:embed=true&amp;:display_count=yes"
                             //src="https://public.tableau.com/views/BrainStationKickstarterNumbers/1?:showVizHome=n&amp;:embed=true&amp;:display_count=yes"
-                            width="645" height="300">
+                            width="1290" height="600">
                         </iframe> : null
                     }
                 </div>
