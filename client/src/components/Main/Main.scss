@@ -13,16 +13,35 @@
 }
 
 .contentsection {
+    display: flex;
     font-family: 'open-sans-condensed-bold';
-    background-color: #D05E5E;
-    color: white;
-    height: 380px;
+    background-color: #FFF9E8;
     width:75%;
     top: 300px;
     margin: 0 auto;
     border-radius: 0.25rem;
     box-shadow: 4px 2px 22px 3px rgba(0,0,0,0.1);
     padding: 1.25rem 4rem;
+}
+
+.sectiontwo-container {
+    display: flex;
+    flex-direction: column;
+    //align-self: flex-end;
+}
+
+.contentsection.one {
+    flex-direction: column;
+}
+
+.contentsection.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsection.three {
+    background-color: rgba(208, 94, 94, 0);
+    margin-top: 3rem;
 }
 
 .two {
@@ -35,9 +54,72 @@
 }
 
 .chart-button {
-    width: 60px;
-    height: 40px;
+    width: 159px;
+    height: 50px;
     margin: 1rem;
     background-color: white;
     border-radius: 0.25rem;
+
+    &:hover{
+        background-color: #D05E5E;
+        color: white;
+    }
+}
+
+.girlImage {
+    width: 830px;
+}
+
+.paragraph {
+    font-size: 16px;
+    width: 80px;
+    text-align: right;
+
+}
+
+.image-container {
+    position: relative;
+}
+
+
+.contentsection.three {
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    box-shadow: none;
+}
+
+// .percentage-container {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+.percentage-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+
+}
+
+.phone-img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.desktop-img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.people-img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.percentage {
+    font-size: 5rem;
+    padding-top: 3rem;
 }
