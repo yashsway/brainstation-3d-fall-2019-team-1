@@ -13,7 +13,7 @@ function App() {
           Add any meta tags you want, or any tag you want to go in the header. 
           You can modify everything else! */}
       <Helmet>
-        <title>Your App Title Here</title>
+        <title>Digital Futures</title>
       </Helmet>
       <Header />
       <Main />

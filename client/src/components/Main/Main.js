@@ -4,6 +4,7 @@ import girlImage from '../../assets/Image1.svg';
 import phone from '../../assets/phone.png';
 import desktop from '../../assets/desktop.png';
 import people from '../../assets/people.png';
+import Switch from '../Switch/Switch'
 
 export class Main extends Component {
     render() {
@@ -12,12 +13,12 @@ export class Main extends Component {
             <div  className="header-bg"></div>
             <section className="contentsection one">
                 <span className="chart-title"> The Important Infomation</span>
-                <div className="button-container">
+                {/* <div className="button-container">
                 <button className="chart-button">Benefits</button>
                 <button className="chart-button">Barriers</button>
                 <button className="chart-button">Chart 3</button>
-                </div>
-
+                </div> */}
+                <Switch />
                 <div className="chart-container">
 
                 </div>
