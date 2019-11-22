@@ -9,7 +9,7 @@
 
 .header-bg {
     height: 190px;
-    background-color: #F0FFFC;
+    background-color: #D05E5E;
 }
 
 .contentsection {
@@ -30,8 +30,14 @@
     //align-self: flex-end;
 }
 
+.blurb {
+    padding-top: 20px;
+    font-size: 25px;
+}
+
 .contentsection.one {
     flex-direction: column;
+    background-color: white;
 }
 
 .contentsection.two {
@@ -40,7 +46,7 @@
 }
 
 .contentsection.three {
-    background-color: rgba(208, 94, 94, 0);
+    background-color: white;
     margin-top: 3rem;
 }
 
@@ -74,13 +80,23 @@
     font-size: 16px;
     width: 80px;
     text-align: right;
-
 }
 
 .image-container {
     position: relative;
 }
 
+.contentsection.zero {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    margin-bottom: 3rem;
+    box-shadow: 4px 2px 22px 3px rgba(0, 0, 0, 0);
+    justify-content: center;
+
+
+}
 
 .contentsection.three {
     display: flex;
@@ -122,4 +138,14 @@
 .percentage {
     font-size: 5rem;
     padding-top: 3rem;
+}
+
+.paragraph.secondsection {
+    font-size: 25px;
+    width: 300px;
+}
+
+.ict-title {
+    font-size: 50px;
+    text-align: right;
 }

@@ -7,10 +7,10 @@ export class Header extends Component {
         return (
             <header className="header">
                 {/* <img src="" alt="logo"/> */}
-                <span className="header__page-title">CEOS</span>
+                <span className="header__page-title">Digital Futures</span>
                 <div className="header__link-container">
-                <span className="header__link linkone">Item 1</span>
-                <span className="header__link linktwo">Item 2</span>
+                <span className="header__link linkone">About</span>
+                <span className="header__link linktwo">Contact</span>
                 </div>
             </header>
         )
