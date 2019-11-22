@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.scss';
 
+
+
 import { Helmet } from 'react-helmet';
 import Switch from './components/Switch/Switch';
 
@@ -24,6 +26,9 @@ function App() {
 
       </header> */}
       <Switch />
+
+
+
     </div>
   );
 }
