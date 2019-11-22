@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "open-sans-condensed";
+    src: url("../../assets/OpenSansCondensed-Light.ttf");
+}
+@font-face {
+    font-family: "open-sans-condensed-bold";
+    src: url("../../assets/OpenSansCondensed-Bold.ttf");
+}
+
+.header {
+    height: 100px;
+    background-color: rgba(6, 10, 9, 0.795);
+    display: flex;
+    align-content: center;
+    width: 100%;
+    position: fixed;
+    box-shadow: 2px 21px 74px -28px rgba(0, 0, 0, 0.473);
+
+
+    &__page-title {
+        font-family: "open-sans-condensed";
+        color: white;
+        font-size: 3rem;
+        margin: 1rem 2rem;
+        align-items: center;
+    }
+
+    &__link-container {
+        display: flex;
+        justify-content: center;
+        align-items: bottom;
+        margin-left: 4rem;
+        padding-bottom: 20px;
+        :hover{ 
+            color: #FFE49B;
+            border-bottom: solid 9px #FFE49B;
+        }
+
+    }
+
+    &__link {
+        font-family: "open-sans-condensed-bold";
+        color: white;
+        font-size: 2rem;
+        margin: 2rem;
+        padding-bottom: 64px;
+
+        :hover{ 
+            color: #F7B500;
+            border-bottom: solid 3px #F7B500;
+        }
+    }
+}
+
+
+.chart-title {
+    font-size: 2rem;
+    font-family:"open-sans-condensed-bold";
+}
+
+.chart-container {
+    background-color: white;
+    height: 200px;
+    margin-top: 20px;
+}
